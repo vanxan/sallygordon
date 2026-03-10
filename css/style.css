@@ -195,7 +195,8 @@ a { text-decoration: none; color: inherit; }
    HERO
    ============================================ */
 .hero {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 900px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 80px;
@@ -919,6 +920,7 @@ footer {
    RESPONSIVE
    ============================================ */
 @media (max-width: 1024px) {
+  .hero { max-height: 700px; }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-inner { grid-template-columns: 1fr 1fr 1fr; }
 }
@@ -943,7 +945,8 @@ footer {
 
   .hero {
     grid-template-columns: 1fr;
-    min-height: auto;
+    height: auto;
+    max-height: none;
   }
 
   .hero-content {
