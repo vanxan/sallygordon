@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "/Users/bigdaddy/Downloads/minthillauto"],
+      "port": 3456,
+      "autoPort": true
+    }
+  ]
+}
